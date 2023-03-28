@@ -21,4 +21,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 4. Once the installation is complete, you can test if Chocolatey is installed correctly by running the command choco in PowerShell. If the command returns a list of available commands, then Chocolatey is installed correctly.
 
 ## Commands
+*.Help
+```
+choco --help
+choco -h
+```
 
