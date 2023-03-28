@@ -1,5 +1,8 @@
 # chocolatey-on-windows-10
-
+### Contents
+1. [Introduction](#Introduction)
+2. [Commands](#Commands)
+## Introduction
 Chocolatey is a package manager for Windows that allows you to easily install, upgrade, and uninstall software packages on your system. With Chocolatey, you can:
 
 1. Install and manage software packages from a central repository.
@@ -16,4 +19,6 @@ Chocolatey is a package manager for Windows that allows you to easily install, u
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 4. Once the installation is complete, you can test if Chocolatey is installed correctly by running the command choco in PowerShell. If the command returns a list of available commands, then Chocolatey is installed correctly.
+
+## Commands
 
