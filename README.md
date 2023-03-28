@@ -1,4 +1,7 @@
 # chocolatey-on-windows-10
+<--!
+https://virgool.io/@dariush-tasdighi/%D9%8A%DA%A9-package-manager-%D9%81%D9%88%D9%82-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%87-%D8%A8%D8%B1%D8%A7%DB%8C-windows-felwbfuzmblw
+-->
 ### Contents
 1. [Introduction](#Introduction)
 2. [Commands](#Commands)
@@ -25,5 +28,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 ```
 choco --help
 choco -h
+```
+* Search
+```
+choco search [PackageName]
+```
+* Install 
+```
+choco install [PackageName]
 ```
 
